@@ -14,7 +14,7 @@
 EXE = poll_lookup
 OBJS = poll_lookup.o parse_opts.o strip_date.o print_info.o node_lookup.o 
 CC = gcc
-DEBUG = 
+DEBUG = -g 
 WARN = -Wall -Wextra
 CFLAGS = -I. -std=gnu11 $(DEBUG) $(WARN) -L.
 LIBS = -lhash
